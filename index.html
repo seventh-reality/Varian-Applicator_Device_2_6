@@ -62,7 +62,7 @@
     
     <div id="card">
     <!-- <model-viewer> HTML element -->
-    <model-viewer src="Device_2_6.glb" ios-src="Device_2_6.usdz" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1" environment-image="music_hall_01_1k.hdr">
+    <model-viewer src="Device_2_6.glb" ios-src="Device_2_6.usdz" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1">
       <div class="progress-bar hide" slot="progress-bar">
           <div class="update-bar"></div>
       </div>
@@ -108,6 +108,15 @@
    
     </section>
        </div>
+	  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XG7G1V7NSE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XG7G1V7NSE');
+</script>
     <script src="script.js"></script>
     <!-- Loads <model-viewer> for browsers: -->
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
